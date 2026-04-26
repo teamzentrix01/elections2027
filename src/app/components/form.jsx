@@ -57,25 +57,27 @@ export default function Form() {
         />
 
         {/* Content */}
-        <div className="flex flex-col items-center justify-center text-center py-20 px-6 gap-6">
-          <h2 className="text-xl sm:text-2xl font-semibold text-gray-800">
-            फ़ॉर्म खोलें
-          </h2>
+       <div className="flex flex-col items-center justify-center text-center py-20 px-6 gap-6">
 
-          
+  <h2 className="text-xl sm:text-2xl font-semibold text-gray-800">
+    आवेदन फ़ॉर्म
+  </h2>
 
-          {/* Button */}
-          <a
-            href={GOOGLE_FORM_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-8 py-3 rounded-xl text-white font-semibold text-sm sm:text-base shadow-md hover:scale-105 transition-transform duration-200"
-            style={{ backgroundColor: "rgb(217, 119, 87)" }}
-          >
-            फ़ॉर्म खोलें ↗
-          </a>
-        </div>
+  <p className="text-gray-500 text-sm max-w-md">
+    आगे बढ़ने के लिए नीचे दिए गए बटन पर क्लिक करें और फ़ॉर्म भरें।
+  </p>
 
+  <a
+    href={GOOGLE_FORM_URL}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-2 px-8 py-3 rounded-xl text-white font-semibold text-sm sm:text-base shadow-md hover:scale-105 transition-transform duration-200"
+    style={{ backgroundColor: "rgb(217, 119, 87)" }}
+  >
+    फ़ॉर्म भरें ↗
+  </a>
+
+</div>
         {/* Bottom strip */}
         <div
           className="w-full px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white"
