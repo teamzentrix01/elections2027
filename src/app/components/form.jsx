@@ -13,21 +13,20 @@ export default function Form() {
           className="inline-block px-4 py-1 rounded-full text-white text-xs sm:text-sm font-semibold tracking-widest uppercase mb-4"
           style={{ backgroundColor: "rgb(217, 119, 87)" }}
         >
-          Get In Touch
+          संपर्क करें
         </span>
 
         <h1
           className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight tracking-tight mb-3"
           style={{ color: "rgb(217, 119, 87)" }}
         >
-          We'd Love to Hear
+          हम आपकी बात सुनना
           <br />
-          <span className="text-gray-800">From You</span>
+          <span className="text-gray-800">चाहते हैं</span>
         </h1>
 
         <p className="text-gray-500 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
-          Fill out the form and our team will get back to you as soon as
-          possible.
+          नीचे दिए गए फ़ॉर्म को भरें, हमारी टीम आपसे जल्द ही संपर्क करेगी।
         </p>
 
         <div className="flex items-center justify-center gap-3 mt-6">
@@ -60,13 +59,10 @@ export default function Form() {
         {/* Content */}
         <div className="flex flex-col items-center justify-center text-center py-20 px-6 gap-6">
           <h2 className="text-xl sm:text-2xl font-semibold text-gray-800">
-            Open the Form
+            फ़ॉर्म खोलें
           </h2>
 
-          <p className="text-gray-500 text-sm max-w-md">
-            This form includes file uploads, so it needs to be opened in a new
-            tab.
-          </p>
+          
 
           {/* Button */}
           <a
@@ -76,7 +72,7 @@ export default function Form() {
             className="px-8 py-3 rounded-xl text-white font-semibold text-sm sm:text-base shadow-md hover:scale-105 transition-transform duration-200"
             style={{ backgroundColor: "rgb(217, 119, 87)" }}
           >
-            Open Form ↗
+            फ़ॉर्म खोलें ↗
           </a>
         </div>
 
@@ -86,25 +82,11 @@ export default function Form() {
           style={{ backgroundColor: "rgb(217, 119, 87)" }}
         >
           <span className="opacity-90">
-            🔒 Responses are securely saved to Google Forms
+            🔒 आपकी प्रतिक्रियाएँ सुरक्षित रूप से Google Forms में संग्रहीत होती हैं
           </span>
-          <span className="opacity-75">Powered by Google Forms</span>
+          <span className="opacity-75">Google Forms द्वारा संचालित</span>
         </div>
       </div>
-
-      {/* ─── Footer ─────────────────────────────────────── */}
-      {/* <p className="mt-8 text-center text-gray-400 text-xs sm:text-sm">
-        Having trouble?{" "}
-        <a
-          href={GOOGLE_FORM_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline underline-offset-2 font-medium hover:opacity-80 transition-opacity"
-          style={{ color: "rgb(217, 119, 87)" }}
-        >
-          Open directly ↗
-        </a>
-      </p> */}
     </section>
   );
 }
